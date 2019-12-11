@@ -65,5 +65,11 @@ public class HexToDecLabAnswer {
     System.out.println("Hex Number " + hexNumber + " is equal to " + decNumber + " in decimal.");
     System.out.println("Expected result is:\n  Hex Number " + hexNumber + " is equal to 65535 in decimal.");
     System.out.println();
+
+    hexNumber = "40030F";
+    decNumber = hexToDec(hexNumber);
+    System.out.println("Hex Number " + hexNumber + " is equal to " + decNumber + " in decimal.");
+    System.out.println("Expected result is:\n  Hex Number " + hexNumber + " is equal to 4195087 in decimal.");
+    System.out.println();
   }
 }
